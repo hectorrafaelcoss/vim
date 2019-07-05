@@ -7,6 +7,7 @@ Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'bling/vim-airline'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'w0rp/ale'
 Plug 'ryanoasis/vim-devicons'
 
 call plug#end()
@@ -38,6 +39,7 @@ color dracula
 " config
 set encoding=utf8
 set guifont=Ubuntu\ Nerd\ Font\ 11
+set number
 
 " Floating window
 "let $FZF_DEFAULT_OPTS = '--layout=reverse'
